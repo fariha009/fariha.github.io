@@ -1,0 +1,431 @@
+@media screen and (max-width:1040px){
+    .nav-items{
+        width: 40%;
+        
+    }
+    .wrap{
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        height:570px;
+        width: 280px;
+        border-radius: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    #particles-js{
+        height:150px;
+        width: 350px;
+        z-index: 1000;
+        position: absolute;
+        top: 40%;
+        left: 40%; 
+        transform: translate(-40%,-40%);
+        display: none;
+       
+    }
+    .square {
+        position: absolute;
+        top: -70%;
+        left: 15%;
+        transform: translate(-20%,70%);
+    }
+    .square p, h3{
+        font-size: 27px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+        line-height: -5px;
+    }
+
+    .skills{
+        height: 120vh;
+        padding: 30px 0;
+    margin: 70px 50px;
+
+    }
+
+    .section-main{
+        position: absolute;
+        top: 90%;
+        left: 40%;
+        transform: translate(-40%,-90%);
+    }
+
+    .fa-html5{
+        color: #f06529;
+        padding: 20px;
+    }
+    .fa-css3-alt{
+        color: #2965f1;
+        padding: 20px;
+    }
+    .fa-js{
+        color: #F0DB4F;
+        padding: 20px;
+        
+    }
+    .fa-php{
+        font-size: 50px;
+        color: #474A8A;
+        padding: 30px 18px;
+        
+    }
+    .fa-bootstrap{
+        color:#553C7B;
+        padding: 20px 18px;
+    }
+    .fa-sass{
+        color: #CD6799;
+        padding: 30px 20px;
+        font-size: 50px;
+    }
+    
+    .fa-github{
+        background-color: #fdfcfc;
+        padding: 20px 18px;
+    }
+
+    .fa-database{
+        color: #F29111;
+        padding: 20px 17px;
+    }
+    .fa-terminal{
+        font-size: 50px;
+        padding: 30px 17px;
+    }
+    .fab ,
+    .fas{
+        margin-left: 20px;
+    }
+
+    .projects{
+        height: 420vh;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .project-main {
+        position: absolute;
+        top: 5%;
+        left: 25%;
+        right: 5%;
+    }
+
+    .text-box {
+        height: 300px;
+        background-color: #FFDBC1;
+        border-radius: 10px;
+        margin-top: 200px;
+        margin-left: 70px;
+    }
+    .about{
+        height: 200vh;
+    }
+    .img-box{
+        margin-left: 160px;
+        margin-top: 100px;
+    }
+
+    .youtube {
+        margin-top: 300px;
+        height: 200vh;
+        background-color: #FFDBC1;
+        padding: 90px;
+        margin: 100px 140px;
+    }
+    .youtube h1{
+        font-size: 2rem;
+    }
+    .btn-subscribe {
+        left: 38%;
+    }
+    .address{
+        height: 100px;
+        margin-left: 250px;
+    }
+    .contact{
+        height: 200vh;
+    }
+    .form{
+        height: 100vh;
+    }
+}  
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    .skills{
+        height: 250vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:768px){
+        
+body{
+    height: 100%;
+    overflow-x: hidden !important;
+    width: 100%;
+    }
+    .preload * {
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -ms-transition: none !important;
+        -o-transition: none !important;
+      }
+        .nav-items{
+            position: absolute;
+            right: 0;
+            height: 50vh;
+            top: 12vh;
+            background:var(--main-font-color);
+            
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transform: translateX(200%);
+            z-index: 999999;
+            transition: transform 3s ease;
+        }
+        .hamburger div{
+            display: block;
+            transition: all .8s ease-in-out;
+        }
+        .hamburger {
+            position: absolute;
+            right: 10%;
+            
+        }
+        .nav-list a{
+            color: var(--navbar-bg);
+        }
+        .nav-active{
+            transform: translateX(0);
+            
+        }
+        
+        .change .bar-1{
+            transform: translateY(4px) rotate(45deg);
+        }
+        
+        .change .bar-3{
+            transform: translateY(-3px) rotate(-45deg);
+        }
+        
+        .change .bar-2{
+            display: none;
+        }
+
+
+        main{
+            height: 150vh;
+            margin-top: 200px ;
+            margin-left: 100px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #particles-js{
+                height:150px;
+                width: 350px;
+                z-index: 1000;
+                position: absolute;
+                top: 40%;
+                left: 40%; 
+                transform: translate(-40%,-40%);
+                display: none;
+               
+            }
+            .col-mobile{
+                position: relative;
+                height: 100vh;
+            }
+            .wrap{
+                position: absolute;
+                top: 40%;
+                left: -20%;
+                height:600px;
+                width: 300px;
+                background-color: #ffdbc1;
+                border-radius: 5%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            
+        
+        
+            /* ----------------------------------------Main Left Side------------------------------------------- */
+        
+            .square{
+                position: absolute;
+                top: 50%;
+                left: 20%;
+                transform: translate(-20%,-50%);
+            }
+        
+            .square p, h3{
+                font-size: 35px;
+                letter-spacing: 1px;
+                margin-bottom: 10px;
+            }
+
+            .skills{
+                height: 350vh;
+                padding: 30px 0;
+            margin: 70px 20px;
+
+            }
+
+           
+
+         /*=================== ===============projects===================================== */
+            
+         .projects{
+            height: 380vh;
+            
+            position: relative;
+            margin: 20px 50px 20px 50px;
+           
+           
+        }
+        .project-main{
+            position: absolute;
+            top: 6%;
+            left: -10%;
+        }  
+        
+        .card{
+            margin-bottom: 40px;
+        }
+
+        /* =========================About================================= */
+        .about{
+            height: 160vh;
+            position: relative;
+            width: 100vw;
+            
+        }
+        .about .section-heading h1{
+            font-size: 2rem;
+        }
+        .about-border{
+    
+            
+            width: 145px;
+            
+        }
+        
+        .text-box{
+            margin-top: 100px;
+            width: 350px !important;
+            height: 380px !important;
+            margin-left: 0;
+        }
+
+        
+        .img-box{
+            border: 15px solid #FFDBC1;
+            margin-top: 100px;
+            width: 350px !important;
+            margin-left: 0;
+        }
+
+        .youtube{
+            margin-top: 300px;
+            height: 140vh;
+            background-color: #FFDBC1;
+            padding: 50px 80px 10px 80px;
+            margin: 100px 10px 50px 10px;
+        }
+        
+        .youtube-main{
+            padding-top: 100px;
+            height: 80vh;
+        }
+        .btn-subscribe{
+            position: absolute;
+            left: 27%;
+            transform: rotateX(-30%);
+            margin-top: 60px;
+            border-radius: 50px;
+            padding: 10px;
+            background-color: var(--main-font-color);
+            color: #fdfcfc;
+        }
+        .btn-subscribe:hover{
+            background-color: #ffefc1;
+        }
+        
+        iframe{
+            height: 200px;
+            width: 170px;
+        }
+        .contact{
+            margin-top: 1200px;
+            height: 140vh;
+        }
+        .form{
+            width: 100vw;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            margin-top: 10px;
+        }
+        form{
+            width:100%;
+            margin:0 auto;
+            padding: 70px;
+          
+          }
+
+        .address {
+            height: 200px;
+            margin-top: 150px;
+            margin-left: 0;
+            font-size: 20px;
+            padding-left:35px !important ;
+        }
+
+        .youtube h1{
+            font-size: 1.2rem !important;
+        }
+
+        .up{
+            right: 4rem;
+        }
+}
+
